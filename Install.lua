@@ -1,6 +1,6 @@
 -- Roblox DataStore2 Installer
 --
--- local h = game:GetService("HttpService") h.HttpEnabled = true loadstring(h:GetAsync())
+-- local h = game:GetService("HttpService") h.HttpEnabled = true loadstring(h:GetAsync("https://raw.githubusercontent.com/jackprogramsjp/Roblox-DataStore2-Installer/master/Install.lua"))
 
 local HttpService = game:GetService("HttpService")
 local ServerScriptService = game:GetService("ServerScriptService")
