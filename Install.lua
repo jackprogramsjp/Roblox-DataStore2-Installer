@@ -17,9 +17,11 @@ local Standard = Instance.new("ModuleScript")
 local OrderedBackups = Instance.new("ModuleScript")
 
 local function Install(Name, Url, Parent)
-	DataStore2.Name = Name
-	DataStore2.Source = HttpService:GetAsync(Url)
-	DataStore2.Parent = Parent
+	local ModuleScript = Instance.new("ModuleScript")
+	
+	ModuleScript.Name = Name
+	ModuleScript.Source = HttpService:GetAsync(Url)
+	ModuleScript.Parent = Parent
 end
 
 Install("DataStore2", "https://raw.githubusercontent.com/Kampfkarren/Roblox/master/DataStore2/init.lua", ServerScriptService)
