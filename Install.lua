@@ -11,7 +11,7 @@ local function Install(Name, Url, Parent)
 	ModuleScript.Parent = Parent
 	
 	return ModuleScript
-end
+endd
 
 local DataStore2 = Install("DataStore2", "https://raw.githubusercontent.com/Kampfkarren/Roblox/master/DataStore2/init.lua", ServerScriptService)
 
