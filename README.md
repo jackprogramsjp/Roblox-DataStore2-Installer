@@ -1,5 +1,5 @@
 # Roblox-DataStore2-Installer
-This will install DataStore2 from the (DataStore2 Github)[https://github.com/Kampfkarren/Roblox/tree/master]
+This will install DataStore2 from the [DataStore2 Github](https://github.com/Kampfkarren/Roblox/tree/master)
 # Installation
 To install DataStore2 straight from the GitHub, all you do is pass this code into your command bar in Roblox Studio!
 ```lua
