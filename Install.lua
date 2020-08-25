@@ -15,7 +15,7 @@ end
 
 local DataStore2 = Install("DataStore2", "https://raw.githubusercontent.com/Kampfkarren/Roblox/master/DataStore2/init.lua", ServerScriptService)
 
-print(Install("Verifier", "https://raw.githubusercontent.com/Kampfkarren/Roblox/master/DataStore2/Verifier.lua", DataStore2))
+Install("Verifier", "https://raw.githubusercontent.com/Kampfkarren/Roblox/master/DataStore2/Verifier.lua", DataStore2)
 Install("TableUtil", "https://raw.githubusercontent.com/Kampfkarren/Roblox/master/DataStore2/TableUtil.lua", DataStore2)
 Install("Settings", "https://raw.githubusercontent.com/Kampfkarren/Roblox/master/DataStore2/Settings.lua", DataStore2)
 Install("Promise", "https://raw.githubusercontent.com/Kampfkarren/Roblox/master/DataStore2/Promise.lua", DataStore2)
